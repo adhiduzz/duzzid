@@ -7,7 +7,6 @@ import { checkAuthRoute, encodePath, getAccessToken } from '.'
 import { NextRequest } from 'next/server'
 
 
-
 const defaultExtensions = ['.epub', '.pdf', '.mobi', '.azw3', '.azw', '.cbz', '.cbr']
 const extensionMimeTypes: Record<string, string> = {
   '.epub': 'application/epub+zip',
