@@ -5,7 +5,7 @@ import { driveApi, cacheControlHeader } from '../../../config/api.config'
 import { encodePath, getAccessToken, checkAuthRoute } from '.'
 import { NextRequest } from 'next/server'
 
-export const runtime = 'edge'
+
 
 export default async function handler(req: NextRequest): Promise<Response> {
   const accessToken = await getAccessToken()
