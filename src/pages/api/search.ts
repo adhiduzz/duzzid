@@ -6,7 +6,7 @@ import apiConfig from '../../../config/api.config'
 import siteConfig from '../../../config/site.config'
 import { NextRequest, NextResponse } from 'next/server'
 
-export const runtime = 'edge'
+
 
 /**
  * Sanitize the search query
